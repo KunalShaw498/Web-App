@@ -25,7 +25,7 @@ function Header() {
   //     dispatch(signout());
   //   };
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
+    <header className="fixed top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
       {/* Left */}
       <div className="relative flex items-center h-10 cursor-pointer my-auto">
         <a href="/">
